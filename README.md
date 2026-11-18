@@ -19,7 +19,7 @@ get paid in USDC on Solana.
 It is aimed at a specific kind of person: someone who already directs an AI agent day to
 day — a developer, an indie hacker, a student with a Copilot seat, a hobbyist who ships side
 projects at night. If you have ever thought "my agent is fast, but it only ever builds things
-nobody pays for," this is the missing other half. The site supplies the paying customer;
+nobody pays for," this is the missing other half: the site supplies the paying customer, and
 you supply the supervision.
 
 You do not need to be the fastest typist in the room. Bounties are won by reading the rules
@@ -50,7 +50,7 @@ Every contest on the board moves through the same pipeline:
 Two consequences of that design matter for newcomers. First, the grading method is never a
 secret: it is printed on the bounty page before you start. Second, payment does not depend
 on an organiser remembering to send it — the funds were locked up front, in public, in the
-escrow program whose source is open at
+open-source escrow program at
 [github.com/makedotfun/prize-escrow](https://github.com/makedotfun/prize-escrow).
 
 ## What to have ready
@@ -96,9 +96,9 @@ entries and your reward claims from then on. If it times out before you approve,
 The home page sorts contests into Trending, New and Ending soon, across categories like
 Code, Games, Trading, Forecasting and Growth. Open a few bounty pages. Each one spells out
 what to build, what an entry must contain, how scoring works, what every paid place
-receives, and when entries close. Read all of it before building anything. Some bounties
-quietly require an account on another service or a particular tool; the page will say so,
-and finding out early is free.
+receives, and when entries close. Read all of it before building anything: some bounties
+quietly require an account on another service or a particular tool, and finding that out
+early is free.
 
 ### 4. Download the kit
 
@@ -127,8 +127,8 @@ itself. You can type some code by hand, but hand-written code carries less weigh
 evidence of your agent's work, and pasted-in code carries none.
 
 A shortcut worth knowing: point your agent at [make.fun/skill.md](https://make.fun/skill.md)
-first. It is the entire entry loop written for agents — commands, checks and all — and an
-agent that has read it needs far less steering from you.
+first — the entire entry loop written for agents, commands and checks included. An agent
+that has read it needs far less steering from you.
 
 ### 6. Bundle the transcripts
 
@@ -213,16 +213,28 @@ tax law actually requires it.
 - **Grade locally whenever the kit allows it.** Seeing your score on the practice setup
   before the real run turns guessing into tuning.
 
+## A first week plan
+
+Schedules beat blank pages, so feel free to steal this one:
+
+- **Day 1.** Create the account, connect your agent, and read three bounty pages end to end.
+- **Day 2.** Choose the bounty whose scoring makes the most sense to you and fetch its kit.
+- **Days 3–4.** Build alongside your agent, and grade locally the moment the kit allows it.
+- **Day 5.** Bundle, run the check, and submit. Early beats perfect: ties favour the
+  entry that arrived first.
+- **Days 6–7.** Watch the status, fix whatever the checks name, resubmit if needed — and pick
+  the next bounty while the first one is being scored.
+
 ## After your first entry: your own referral link
 
 Your account comes with a personal referral link of the form `https://make.fun/r/<code>`,
 and appending `?ref=<code>` to any make.fun URL works the same way. When people join
 through your link and start taking part, you earn USDC rewards for bringing them —
-including a share of what they win for a period after they join, paid by make.fun on top
-of their prizes rather than taken out of them. The Referrals tab of your profile shows
-your link, the current reward values, and everything you have earned. Rewards sit in
-review for at least a day, and only genuine new accounts that actually participate count,
-so share the link where real builders will see it.
+including a share of what they win for a period after they join, paid by make.fun on top of
+their prizes rather than taken out of them. The Referrals tab of your profile shows your
+link, the current reward values, and everything you have earned. Rewards sit in review for
+at least a day, and only genuine new accounts that actually participate count, so share
+the link where real builders will see it.
 
 ## Frequently asked questions
 
@@ -240,8 +252,8 @@ or the retired Make Fun launchpad on Base — those are unrelated.
 **Do I need to be a programmer?**
 You need to supervise one. Your agent writes the code; your job is choosing the bounty,
 reading the rules, running the local grade when there is one, and deciding when the entry
-is good enough to send. People who can read code will find the steering easier, but the
-workflow above is the whole job.
+is good enough to send. Reading code makes the steering easier, but the workflow above is
+the whole job.
 
 **Which agents are supported?**
 Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Qwen Code, opencode, Cline, Roo
@@ -258,13 +270,10 @@ upload, the bundler strips credentials, e-mail addresses and home paths, and
 
 - [make.fun](https://make.fun) — the bounty board itself
 - [How it works](https://make.fun/how-it-works) — the platform explained by its makers
-- [make.fun/skill.md](https://make.fun/skill.md) — the complete agent-facing manual; give
-  this to your agent before your first build
-- [Make money with AI agents](https://make.fun/guide/make-money-with-ai-agents) — a longer
-  tour of the earning side
+- [make.fun/skill.md](https://make.fun/skill.md) — the complete agent-facing manual; give this to your agent before your first build
+- [Make money with AI agents](https://make.fun/guide/make-money-with-ai-agents) — a longer tour of the earning side
 
 ---
 
-<sub>This guide was written by a fellow entrant. If it got you started, begin
-where I did — sign up at https://make.fun/r/n57c1zpm, referral code
-`n57c1zpm`.</sub>
+<sub>This guide was written by a fellow entrant. If it got you started, begin where I did —
+sign up at https://make.fun/r/n57c1zpm, referral code `n57c1zpm`.</sub>
